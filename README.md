@@ -10,6 +10,21 @@ For example, the first player, Donald, begins a turn with a roll of 5. Donald co
 
 
 
+Describe: playerOneDiceRoll();
+
+Test: "It will generate a random number between 1-6" Code: rollDice(); Expected Result: Random number between 1-6
+Code: playerOneDiceRoll()
+expected result: number betrween 1-6
+
+Describe: score();
+
+Test: "It will store each roll into an array"
+Code: score();
+Expected Result: scoreArray = [num1, num2, num3, num4, etc]
+
+Test: "It will store each roll into an array unless it is 1"
+Code: score();
+Expected Result: scoreArray = [num1, num2, num3, num4, etc]
 
 
 
