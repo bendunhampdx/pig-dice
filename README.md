@@ -26,6 +26,9 @@ Test: "It will store each roll into an array unless it is 1"
 Code: score();
 Expected Result: scoreArray = [num1, num2, num3, num4, etc]
 
+Test: "It will add values stored in scoreArray"
+Code: score();
+Expected Result: scoreArray = [num1 + num2 + num3 etc]
 
 
 
