@@ -4,6 +4,7 @@ function Player() {
 }
 
 let player1 = new Player(0, 0)
+let player2 = new Player(0, 0)
 
 Player.prototype.diceRoll = function() {
   let min = 1;
@@ -20,7 +21,6 @@ Player.prototype.score = function() {
     this.turnCount += playerScore
   } else if (playerScore === 1) {
     this.turnCount = 0;
-   
   } 
   console.log(this.turnCount)
   return this.turnCount
@@ -30,9 +30,6 @@ Player.prototype.score = function() {
 
 
 
-
-// for (let i = 0; i < turnCount.length; i ++) {
-//   this.totalCount += turnCount[i];
 
 
 
