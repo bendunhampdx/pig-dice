@@ -10,7 +10,7 @@ For example, the first player, Donald, begins a turn with a roll of 5. Donald co
 
 
 
-Describe: playerOneDiceRoll();
+Describe: diceRoll();
 
 Test: "It will generate a random number between 1-6" Code: rollDice(); Expected Result: Random number between 1-6
 Code: playerOneDiceRoll()
